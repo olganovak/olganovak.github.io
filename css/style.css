@@ -247,6 +247,9 @@ background-color:
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
+
+
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	iframe {

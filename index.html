@@ -36,11 +36,10 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active-link"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-						<li><a href="#">About us</a></li>
-						<li><a href="#">services</a></li>
-						<li><a href="#">links</a></li>
-						<li><a href="#">Feedback</a></li>
-						<li><a href="#">Contacts</a></li>
+						<li><a href="#services">services</a></li>
+						<li><a href="#links">links</a></li>
+						<li><a href="#contacts">Contacts</a></li>
+						<li><a href="#contacts">Feedback</a></li>
 					</ul>
 				</div>
 			</div>
@@ -57,7 +56,7 @@
 			<div class="item active">
 				<img src="img/slider1.jpg" alt="...">
 				<div class="container">
-					<button type="button" class="hidden-xs btn btn-primary btn-ask">Ask for a free consultation</button>
+					<button type="button" class="hidden-xs btn btn-primary btn-ask" data-toggle="modal" data-target="#myModal">Ask for a free consultation</button>
 				</div>
 				<div class="carousel-caption">
 					<div class= "container-fluid">
@@ -68,7 +67,7 @@
 			<div class="item">
 				<img src="img/slider2.jpg" alt="...">
 				<div class="container">
-					<button type="button" class="hidden-xs btn btn-primary btn-ask">Ask for a free consultation</button>
+					<button type="button" class="hidden-xs btn btn-primary btn-ask" data-toggle="modal" data-target="#myModal">Ask for a free consultation</button>
 				</div>
 				<div class="carousel-caption">
 					<div class= "container-fluid">
@@ -76,10 +75,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="item">
+			<div class="item" id="about-us">
 				<img src="img/slider3.jpg" alt="...">
 				<div class="container">
-					<button type="button" class="hidden-xs btn btn-primary btn-ask">Ask for a free consultation</button>
+					<button type="button" class="hidden-xs btn btn-primary btn-ask" data-toggle="modal" data-target="#myModal">Ask for a free consultation</button>
 				</div>
 				<div class="carousel-caption">
 					<div class= "container-fluid">
@@ -100,7 +99,7 @@
 		</a>
 	</div>
 			<div class="container">
-					<button type="button" class="hidden-lg hidden-md hidden-sm btn btn-primary btn-lg btn-block btn-ask-3 ">Ask for a free consultation</button>
+					<button  type="button" class="hidden-lg hidden-md hidden-sm btn btn-primary btn-lg btn-block btn-ask-3" data-toggle="modal" data-target="#myModal">Ask for a free consultation</button>
 				</div>
 
 	<!-- --------------------------------------------------------carousel---------------------------------------- -->
@@ -108,7 +107,7 @@
 		
 	<div class="container next-block-header first">
 		<div class="row">
-			<div class="col-md-12"><h1>Welcome to <b>Ogstons Chartered Accountants</b>!</h1></div>
+			<div class="col-md-12" ><h1>Welcome to <b>Ogstons Chartered Accountants</b>!</h1></div>
 		</div>
 	</div>
 	<div class="container">
@@ -117,7 +116,7 @@
 				<a href="#"><img src = "img/icaew.png"></a>
 			</div>
 			<div class= "col-md-9 block-text">
-				<p>We provide a friendly personal service to all our clients.  Our clients range from a simple tax return through self employed individuals  trading as sole traders, or in partnership, to limited companies from a one person company to companies with a turnover up to £3 million. Our experience has been gained in the professional and commercial world as part of both a local and multinational environment in UK and Europe.</br>
+				<p id="services">We provide a friendly personal service to all our clients.  Our clients range from a simple tax return through self employed individuals  trading as sole traders, or in partnership, to limited companies from a one person company to companies with a turnover up to £3 million. Our experience has been gained in the professional and commercial world as part of both a local and multinational environment in UK and Europe.</br>
 					We can offer our services in English and Spanish.  We also have a consultant with degrees in Economics and in Law who is an ex-tax inspector from Ukraine.</p>
 				</div>
 			</div>
@@ -213,7 +212,7 @@
 				<div class="item">
 					<div class="service-background">
 						<img class="thumbnails" src="img/men-4.jpg" alt="...">
-						<button class="btn btn-primary btn-services" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+						<button id="links" class="btn btn-primary btn-services" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
 							Taxation <br> services
 						</button>
 						<div class="collapse" id="collapseExample4">
@@ -306,7 +305,7 @@
 				</div>
 			</div>
 			<div class="container">
-					<button type="button" class="btn btn-primary btn-lg btn-block btn-ask-2 ">Ask for a free consultation</button>
+					<button type="button" class="btn btn-primary btn-lg btn-block btn-ask-2" data-toggle="modal" data-target="#myModal" id="contacts">Ask for a free consultation</button>
 				</div>
 		<!-- -------------------------------------------------------- links  ---------------------------------------- -->
 		<!-- --------------------------------------------------------   contacts   -------------------------------- -->
@@ -337,16 +336,16 @@
 				<div class= "col-md-6">
 					<form>
 						<div class="form-group">
-							<input type="text" class="form-control" id="exampleInputName2" placeholder="Your name">
+							<input type="text" class="form-control" id="name" placeholder="Your name">
+						</div>
+						<div class="form-group ">
+							<input type="text" id="validate" type="email" class="form-control" id="email" placeholder="Email">
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+							<input type="text" class="form-control" id="subject" placeholder="Subject">
 						</div>
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Subject">
-						</div>
-						<div class="form-group">
-							<textarea class="form-control" rows="4" placeholder="Your enquiry"></textarea>
+							<textarea class="form-control" rows="4" id="enquiry" placeholder="Your enquiry"></textarea>
 						</div>
 						<div class="form-group">
 							<button type="submit" class="btn btn-primary"><span class="text-submit">Submit</span></button>
@@ -372,55 +371,84 @@
 			</div>
 		<!-- -------------------------------------------------------- contacts  ---------------------------------------- -->
 		<!-- --------------------------------------------------------   form   -------------------------------- -->
-			<hr>
+
+<div id="myModal" class="modal fade">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header"><button class="close" type="button" data-dismiss="modal">×</button>
+<h4 class="modal-title">Please enter your details below</h4>
+</div>
+<div class="modal-body"><form>
+						<div class="form-group">
+							<input type="text" class="form-control" id="name" placeholder="Your name">
+						</div>
+						<div class="form-group ">
+							<input type="text" id="validate" type="email" class="form-control" id="email" placeholder="Email">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" id="subject" placeholder="Subject">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" rows="4" id="enquiry" placeholder="Your enquiry"></textarea>
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn btn-primary"><span class="text-submit">Submit</span></button>
+						</div>
+					</form></div>
+<div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Close</button></div>
+</div>
+</div>
+</div>
+
+
+
+
 
 <!--
-	<div class="cotainer">
-		<form class="form-horizontal">
-			<div class="form-group">
-				<label class="control-label col-sm-2" for="email">Title:</label>
-				<div class="col-sm-2">
-					<select class="form-control">
-						<option>Mr</option>
-						<option>Mrs</option>
-						<option>Miss</option>
-						<option>Ms</option>
-					</select>
-				</div>
-			</div>
-			<div class="form-group">
-				<label class="control-label col-sm-2" for="exampleInputName2">Name:</label>
-				<div class="col-sm-6">
-					<input type="text" class="form-control" id="exampleInputName2" placeholder="Enter your full name">
-				</div>
-			</div>
+<div class="modal fade" id="basicModal" tabindex="-1" role="dialog">
+     <div class="modal-dialog">
+       <div class="modal-content">
+          <div class="modal-header"><button class="close" type="button" data-dismiss="modal">x</button>
+             <h4 class="modal-title" id="myModalLabel">Название модального окна</h4>
+          </div>
+        <div class="modal-body">
+        
 
-			<div class="form-group">
-				<label class="control-label col-sm-2" for="company">Company:</label>
-				<div class="col-sm-6">
-					<input type="text" class="form-control" id="company" placeholder="Enter your company name">
-				</div>
-			</div>
+<form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Title:</label>
+    <select class="form-control">
+    	<option>Mr</option>
+    	<option>Mrs</option>
+    	<option>Miss</option>
+    	<option>Ms</option>
+    </select>
+  </div>
 
-			<div class="form-group">
-				<label class="control-label col-sm-2" for="company">Telephone:</label>
-				<div class="col-sm-6">
-					<input type="text" class="form-control" id="company" placeholder="Enter your telephone number"">
-				</div>
-			</div>
-			<div class="form-group">
-				<label class="control-label col-sm-2" for="exampleInputEmail1">Email address</label>
-				<div class="col-sm-6">
-					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-				</div>
-			</div>
+   <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your full name">
+  </div>
 
-			<div class="form-group">
-				<label class="control-label col-sm-2" for="company">Address:</label>
-				<div class="col-sm-6">
-					<textarea class="form-control" rows="2"></textarea>
-				</div>
-			</div>		
+     <div class="form-group">
+    <label for="exampleInputEmail1">Comany</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your company name">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Telephone</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">E-mail adress</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Trade/Profession:</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
 
 
 			<div class="form-group">
@@ -696,6 +724,25 @@
 					<textarea class="form-control" rows="6"></textarea>
 				</div>
 			</div>	
+
+  <div class="form-group">
+    <label for="exampleInputPassword1">Пароль</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox"> Проверить меня
+        </label>
+  </div>
+  <button type="submit" class="btn btn-default">Отправить</button>
+</form>
+
+			
 			
 
 
