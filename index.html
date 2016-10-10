@@ -1,652 +1,790 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Styletour</title>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<title>Ogstons Chartered Accountants</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300" rel="stylesheet"> 
+	<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/custom.css" rel="stylesheet">
-	<link href="css/elastislide.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
 <body>
-	
+	<!-- ---------------------------------------------------------navbar---------------------------------------- -->
 	<header>
-		<div class="menu-top">
-			<nav class="navbar navbar-default">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-top" aria-expanded="false">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
-
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="menu-top">
-						<ul class="nav navbar-nav">
-							<li><a href="#">Support</a></li>
-							<li><a href="#">Free Shipping Over $50</a></li>
-							<li><a href="#">Articles</a></li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="flag"><img src="img/flag.jpg" alt=""></span>English <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">France</a></li>
-									<li><a href="#">Russia</a></li>
-									<li><a href="#">Something else here</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#">Separated link</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#">One more separated link</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">currecy: usd <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">currecy: eur</a></li>
-									<li><a href="#">currecy: rur</a></li>
-								</ul>
-							</li>
-						</ul>
-
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">Login</a></li>
-							<li><a href="#">Signup</a></li>
-							<li><a href="#" class="btn-red"><span class="glyphicon glyphicon-shopping-cart"></span>shopping cart</a></li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
-			</nav>
-		</div><!-- /.menu-top -->
-
-		<section class="menu-carousel">
-			<div id="carousel" class="carousel fade" data-ride="carousel">
-				<div class="main-menu">
-					<nav class="navbar navbar-inverse">
-						<div class="container">
-							<div class="main-menu-bg">
-								<!-- Brand and toggle get grouped for better mobile display -->
-								<div class="navbar-header">
-									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-									<a class="navbar-brand" href="#"><img src="img/logo.png" alt="StyleTour"><span>StyleTour</span></a>
-								</div>
-
-								<!-- Collect the nav links, forms, and other content for toggling -->
-								<div class="collapse navbar-collapse" id="main-menu">
-									<ul class="nav navbar-nav">
-										<li><a href="#">Shop</a></li>
-										<li><a href="#">Men</a></li>
-										<li><a href="#">Women</a></li>
-										<li><a href="#">Kids</a></li>
-										<li><a href="#">Accessories</a></li>
-										<li><a href="#">Sale</a></li>
-									</ul>
-
-									<div class="nav navbar-nav navbar-right">
-										<form class="navbar-form navbar-left" role="search" method="get" action="">
-											<div class="input-group">
-												<input type="text" class="form-control" placeholder="Search">
-												<span class="input-group-btn">
-													<button type="submit" class="btn btn-default" name="go"><i class="glyphicon glyphicon-search"></i></button>
-												</span>
-											</div>
-										</form>
-									</div>
-								</div><!-- /.navbar-collapse -->
-								<i class="search glyphicon glyphicon-search"></i>
-							</div><!-- /.main-menu-bg -->
-						</div><!-- /.container -->
-					</nav>
-				</div><!-- /.main-menu -->
-
-				<!-- Indicators -->
-				<div class="carousel-indicators-wrap">
-					<ol class="carousel-indicators">
-						<li data-target="#carousel" data-slide-to="0" class="active"></li>
-						<li data-target="#carousel" data-slide-to="1"></li>
-						<li data-target="#carousel" data-slide-to="2"></li>
-						<li data-target="#carousel" data-slide-to="3"></li>
-					</ol>
-				</div><!-- /.carousel-indicators-wrap -->
-
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<!-- <img src="img/slider.jpg" alt=""> -->
-						<div class="bgslide" style="background-image: url(img/slider.jpg);"></div>
-						<div class="container">
-							<div class="carousel-caption">
-								<h1>Women's Apparel</h1>
-								<h3>T-Shirts, Dress Shirts, Tanks, Pants and More...</h3>
-								<a href="#" class="btn-red">Shop Women’s Apparel</a>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<!-- <img src="img/slider.jpg" alt=""> -->
-						<div class="bgslide" style="background-image: url(img/slider.jpg);"></div>
-						<div class="container">
-							<div class="carousel-caption">
-								<h1>Women's Apparel 2</h1>
-								<h3>T-Shirts, Dress Shirts, Tanks, Pants and More...</h3>
-								<a href="#" class="btn-red">Shop Women’s Apparel</a>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<!-- <img src="img/slider.jpg" alt=""> -->
-						<div class="bgslide" style="background-image: url(img/slider.jpg);"></div>
-						<div class="container">
-							<div class="carousel-caption">
-								<h1>Women's Apparel 3</h1>
-								<h3>T-Shirts, Dress Shirts, Tanks, Pants and More...</h3>
-								<a href="#" class="btn-red">Shop Women’s Apparel</a>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<!-- <img src="img/slider.jpg" alt=""> -->
-						<div class="bgslide" style="background-image: url(img/slider.jpg);"></div>
-						<div class="container">
-							<div class="carousel-caption">
-								<h1>Women's Apparel 4</h1>
-								<h3>T-Shirts, Dress Shirts, Tanks, Pants and More...</h3>
-								<a href="#" class="btn-red">Shop Women’s Apparel</a>
-							</div>
-						</div>
-					</div>
+		<nav class="navbar navbar-default menu navbar-fixed-top"> 
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand hidden-sm" href="#"><img src="img/logo.png"></a>
+					<a class="navbar-brand hidden-lg hidden-xs hidden-md" href="#"><img src="img/logo2.png"></a>
 				</div>
 
-				<!-- Controls -->
-				<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</a>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active-link"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+						<li><a href="#services">services</a></li>
+						<li><a href="#links">links</a></li>
+						<li><a href="#contacts">Contacts</a></li>
+						<li><a href="#contacts">Feedback</a></li>
+					</ul>
+				</div>
 			</div>
-		</section>
-
+		</nav>
 	</header>
+	<!-- ---------------------------------------------------------navbar---------------------------------------- -->
 
-	<section class="main-slogan">
-		<div class="container">
-			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</h1>
+	<!-- --------------------------------------------------------carousel---------------------------------------- -->
+
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+
+			<div class="item active">
+				<img src="img/slider1.jpg" alt="...">
+				<div class="container">
+					<button type="button" class="hidden-xs btn btn-primary btn-ask" data-toggle="modal" data-target="#myModal">Ask for a free consultation</button>
+				</div>
+				<div class="carousel-caption">
+					<div class= "container-fluid">
+						<h1>Over 50 years national and international experience</h1>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img src="img/slider2.jpg" alt="...">
+				<div class="container">
+					<button type="button" class="hidden-xs btn btn-primary btn-ask" data-toggle="modal" data-target="#myModal">Ask for a free consultation</button>
+				</div>
+				<div class="carousel-caption">
+					<div class= "container-fluid">
+						<h1>Fixed prices</h1>
+					</div>
+				</div>
+			</div>
+			<div class="item" id="about-us">
+				<img src="img/slider3.jpg" alt="...">
+				<div class="container">
+					<button type="button" class="hidden-xs btn btn-primary btn-ask" data-toggle="modal" data-target="#myModal">Ask for a free consultation</button>
+				</div>
+				<div class="carousel-caption">
+					<div class= "container-fluid">
+						<h1 class="opacity-1">Friendly personal service</h1>
+					</div>
+				</div>
+			</div>
 		</div>
-	</section>
 
-	<section class="main-content">
+		<!-- Controls -->
+		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<div class="container">
+		<button  type="button" class="hidden-lg hidden-md hidden-sm btn btn-primary btn-lg btn-block btn-ask-3" data-toggle="modal" data-target="#myModal">Ask for a free consultation</button>
+	</div>
+
+	<!-- --------------------------------------------------------carousel---------------------------------------- -->
+	<!-- -------------------------------------------------------- icaew  ---------------------------------------- -->
+		
+	<div class="container next-block-header first">
+		<div class="row">
+			<div class="col-md-12" ><h1>Welcome to <b>Ogstons Chartered Accountants</b>!</h1></div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class= "col-md-3 img-icaew">
+				<a href="http://www.icaew.com/" target="_blank"><img src = "img/icaew.png"></a>
+			</div>
+			<div class= "col-md-9 block-text">
+				<p id="services">We provide a friendly personal service to all our clients.  Our clients range from a simple tax return through self employed individuals  trading as sole traders, or in partnership, to limited companies from a one person company to companies with a turnover up to £3 million. Our experience has been gained in the professional and commercial world as part of both a local and multinational environment in UK and Europe.</br>
+					We can offer our services in English and Spanish.  We also have a consultant with degrees in Economics and in Law who is an ex-tax inspector from Ukraine.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- -------------------------------------------------------- icaew  ---------------------------------------- -->
+		<!-- -------------------------------------------------------- services---------------------------------------- -->
+
+		<hr class="hr-line">
+
+		<div class="container next-block-header">
+			<div class="row">
+				<div class="col-md-12"><h1>We provide next <b>SERVICES</b></h1></div>
+			</div>
+		</div>
+		<div class= "container-fluid services text-center">
+		<div class = "col-lg-2 col-sm-4 col-xs-6">
+				<div class="item">
+					<div class="service-background">
+						<img class="thumbnails" src="img/men-0.jpg" alt="...">
+						<button class="btn btn-primary btn-services" type="button" data-toggle="collapse" data-target="#collapseExample0" aria-expanded="false" aria-controls="collapseExample1">
+							Monthly/Quarterly <br> Management 
+						</button>
+						<div class="collapse" id="collapseExample0">
+							<div class="well">
+								<ul class="list-group">
+									<li class="list-group-item"> One of our most important services is providing regular management accounts to our clients on a monthly or quarterly basis</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>		
+			<div class = "col-lg-2 col-sm-4 col-xs-6">
+				<div class="item">
+					<div class="service-background">
+						<img class="thumbnails" src="img/men-1.jpg" alt="...">
+						<button class="btn btn-primary btn-services" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+							Advice and <br> Help
+						</button>
+						<div class="collapse" id="collapseExample1">
+							<div class="well">
+								<ul class="list-group">
+									<li class="list-group-item"> Business start up</li>
+									<li class="list-group-item"> Registration of appropriate documents</li>
+									<li class="list-group-item"> Preparation or assistance with business plans and cash flow forecasts</li>
+									<li class="list-group-item"> Obtaining credit and loans</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class = "col-lg-2 col-sm-4 col-xs-6">
+				<div class="item">
+					<div class="service-background">
+						<img class="thumbnails" src="img/men-2.jpg" alt="...">
+						<button class="btn btn-primary btn-services" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+							Company <br>Administration
+						</button>
+						<div class="collapse" id="collapseExample2">
+							<div class="well">
+								<ul class="list-group">
+									<li class="list-group-item"> Preparation of Statutory accounts for Companies House and HMRC</li>
+									<li class="list-group-item"> Preparation of Corporation Tax returns</li>
+									<li class="list-group-item"> Company Secretarial work</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class = "col-lg-2 col-sm-4 col-xs-6">
+				<div class="item">
+					<div class="service-background">
+						<img class="thumbnails" src="img/men-3.jpg" alt="...">
+						<button class="btn btn-primary btn-block btn-services" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+						Sole Traders and <br>Partnerships
+						</button>
+						<div class="collapse" id="collapseExample3">
+							<div class="well">
+								<ul class="list-group">
+									<li class="list-group-item"> Preparation of accounts</li>
+									<li class="list-group-item"> Completion of self assesment tax returns</li>
+									<li class="list-group-item"> Incorporation advice</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class = "col-lg-2 col-sm-4 col-xs-6">
+				<div class="item">
+					<div class="service-background">
+						<img class="thumbnails" src="img/men-4.jpg" alt="...">
+						<button id="links" class="btn btn-primary btn-services" type="button" data-toggle="collapse" data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+							Taxation <br> services
+						</button>
+						<div class="collapse" id="collapseExample4">
+							<div class="well">
+								<ul class="list-group">
+									<li class="list-group-item"> P.A.Y.E. compliance</li>
+									<li class="list-group-item"> Tax planning for self assesment, capital gains and inheritance taxes </li>
+									<li class="list-group-item"> Dealing with HMRC queries and investigations on our clients' behalf</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class = "col-lg-2 col-sm-4 col-xs-6">
+				<div class="item">
+					<div class="service-background">
+						<img class="thumbnails" src="img/men-5.jpg" alt="...">
+						<button class="btn btn-primary btn-services" type="button" data-toggle="collapse" data-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">
+							Book-keeping and <br> Reports
+						</button>
+						<div class="collapse" id="collapseExample5">
+							<div class="well">
+								<ul class="list-group">
+									<li class="list-group-item"> Book-keeping</li>
+									<li class="list-group-item"> Vat returns preparation and filing </li>
+									<li class="list-group-item"> Payroll preparation and filing of returns</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+		<!-- -------------------------------------------------------- services  ---------------------------------------- -->
+		<!-- -------------------------------------------------------- links     -------------------------------- -->
+
+		<hr class="hr-line">
+		<div class="container next-block-header">
+			<div class="row">
+				<div class="col-md-12"><h1>Some useful <b>LINKS</b></h1></div>
+			</div>
+		</div>
+
 		<div class="container">
 			<div class="row">
-				<div class="col-md-9 col-md-push-3">
-					<div class="row">
-						<div class="content">
-							<h3>Items on Demand</h3>
-							<div class="products-row clearfix">
-								<div class="col-sm-4">
-									<div class="product">
-										<div class="product-favorites">
-											<span class="glyphicon glyphicon-heart"></span>
-										</div><!-- /.product-favorites -->
-										<div class="product-img">
-											<a href="#"><img src="img/goods1.jpg" alt="CREAM JANE JEANS DRESS"></a>
-										</div><!-- /.product-img -->
-										<p class="product-title">
-											<a href="#">CREAM JANE JEANS DRESS</a>
-										</p>
-										<p class="product-desc">
-											Signature NYX cosmetics
-										</p>
-										<div class="product-buy">
-											<p class="product-price">
-												Price: €10.00
-											</p>
-											<a href="#" class="btn btn-default">add to cart</a>
-										</div><!-- /.product-buy -->
-									</div><!-- /.product -->
-								</div>
-								<div class="col-sm-4">
-									<div class="product">
-										<div class="product-sale img-circle">
-											<span>Sale</span>
-										</div><!-- /.product-favorites -->
-										<div class="product-img">
-											<a href="#"><img src="img/goods2.jpg" alt="CREAM JANE JEANS DRESS"></a>
-										</div><!-- /.product-img -->
-										<p class="product-title">
-											<a href="#">CREAM SISSI TUNIC</a>
-										</p>
-										<p class="product-desc">
-											Lightweight with just a hint of sheer color, this hydrating 
-										</p>
-										<div class="product-buy">
-											<p class="product-price">
-												Price: €20.00
-											</p>
-											<a href="#" class="btn btn-default">add to cart</a>
-										</div><!-- /.product-buy -->
-									</div><!-- /.product -->
-								</div>
-								<div class="col-sm-4">
-									<div class="product">
-										<div class="product-favorites">
-											<span class="glyphicon glyphicon-heart"></span>
-										</div><!-- /.product-favorites -->
-										<div class="product-img">
-											<a href="#"><img src="img/goods3.jpg" alt="CREAM JANE JEANS DRESS"></a>
-										</div><!-- /.product-img -->
-										<p class="product-title">
-											<a href="#">big doodle shawl - blue/black</a>
-										</p>
-										<p class="product-desc">
-											Lightweight with just a hint of sheer color, this hydrating Lightweight with just a hint of sheer color, this hydrating
-										</p>
-										<div class="product-buy">
-											<p class="product-price">
-												Price: €09.00
-											</p>
-											<a href="#" class="btn btn-default">add to cart</a>
-										</div><!-- /.product-buy -->
-									</div><!-- /.product -->
-								</div>
-							</div><!-- /.products-row -->
-							<h3>Featured Items</h3>
-							<div class="products-row clearfix">
-								<div class="col-sm-4">
-									<div class="product">
-										<div class="product-sale img-circle">
-											<span>Sale</span>
-										</div>
-										<div class="product-img">
-											<a href="#"><img src="img/goods4.jpg" alt="CREAM JANE JEANS DRESS"></a>
-										</div>
-										<p class="product-title">
-											<a href="#">Cream sissi tunic</a>
-										</p>
-										<p class="product-desc">
-											Lightweight with just a hint of sheer color, this hydrating
-										</p>
-										<div class="product-buy">
-											<p class="product-price">
-												Price: €20.00
-											</p>
-											<a href="#" class="btn btn-default">Add to cart</a>
-										</div>
-									</div><!-- /.product -->
-								</div><!-- .col-sm-4 -->
-								<div class="col-sm-4">
-									<div class="product">
-										<div class="product-img">
-											<a href="#"><img src="img/goods5.jpg" alt="CREAM JANE JEANS DRESS"></a>
-										</div>
-										<p class="product-title">
-											<a href="#">big doodle shawl - blue/black</a>
-										</p>
-										<p class="product-desc">
-											Lightweight with just a hint of sheer color, this hydrating
-										</p>
-										<div class="product-buy">
-											<p class="product-price">
-												Price: €09.00
-											</p>
-											<a href="#" class="btn btn-default">Add to cart</a>
-										</div>
-									</div><!-- /.product -->
-								</div><!-- .col-sm-4 -->
-								<div class="col-sm-4">
-									<div class="product">
-										<div class="product-img">
-											<a href="#"><img src="img/goods6.jpg" alt="CREAM JANE JEANS DRESS"></a>
-										</div>
-										<p class="product-title">
-											<a href="#">big doodle shawl - blue/black</a>
-										</p>
-										<p class="product-desc">
-											Lightweight with just a hint of sheer color, this hydrating
-										</p>
-										<div class="product-buy">
-											<p class="product-price">
-												Price: €09.00
-											</p>
-											<a href="#" class="btn btn-default">Add to cart</a>
-										</div>
-									</div><!-- /.product -->
-								</div><!-- .col-sm-4 -->
-							</div><!-- .products-row -->
-							<div class="banner-row clearfix">
-								<div class="col-sm-4">
-									<a href=""><img src="img/content-banner1.jpg"></a>
-								</div>
-								<div class="col-sm-4">
-									<a href=""><img src="img/content-banner2.jpg"></a>
-								</div>
-								<div class="col-sm-4">
-									<a href=""><img src="img/content-banner3.jpg"></a>
-								</div>
-							</div><!-- .banner-row -->
-							<h3>Latest Arrivals</h3>
-							<div class="products-row clearfix">
-								<div class="col-sm-4">
-									<div class="product">
-										<div class="product-sale img-circle">
-											<span>Sale</span>
-										</div>
-										<div class="product-img">
-											<a href="#"><img src="img/goods7.jpg" alt="CREAM JANE JEANS DRESS"></a>
-										</div>
-										<p class="product-title">
-											<a href="#">Cream sissi tunic</a>
-										</p>
-										<p class="product-desc">
-											Lightweight with just a hint of sheer color, this hydrating
-										</p>
-										<div class="product-buy">
-											<p class="product-price">
-												Price: €20.00
-											</p>
-											<a href="#" class="btn btn-default">Add to cart</a>
-										</div>
-									</div><!-- /.product -->
-								</div><!-- .col-sm-4 -->
-								<div class="col-sm-4">
-									<div class="product">
-										<div class="product-img">
-											<a href="#"><img src="img/goods8.jpg" alt="CREAM JANE JEANS DRESS"></a>
-										</div>
-										<p class="product-title">
-											<a href="#">big doodle shawl - blue/black</a>
-										</p>
-										<p class="product-desc">
-											Lightweight with just a hint of sheer color, this hydrating
-										</p>
-										<div class="product-buy">
-											<p class="product-price">
-												Price: €09.00
-											</p>
-											<a href="#" class="btn btn-default">Add to cart</a>
-										</div>
-									</div><!-- /.product -->
-								</div><!-- .col-sm-4 -->
-								<div class="col-sm-4">
-									<div class="product">
-										<div class="product-img">
-											<a href="#"><img src="img/goods9.jpg" alt="CREAM JANE JEANS DRESS"></a>
-										</div>
-										<p class="product-title">
-											<a href="#">big doodle shawl - blue/black</a>
-										</p>
-										<p class="product-desc">
-											Lightweight with just a hint of sheer color, this hydrating
-										</p>
-										<div class="product-buy">
-											<p class="product-price">
-												Price: €09.00
-											</p>
-											<a href="#" class="btn btn-default">Add to cart</a>
-										</div>
-									</div><!-- /.product -->
-								</div><!-- .col-sm-4 -->
-							</div><!-- .products-row -->
-						</div> <!-- /.content -->
+				<div class= "col-md-12 first-block-text">
+					<p>Listed below are links to other websites. Although the information provided by the linked web sites may be useful, 
+						we strongly advise you to take professional advice before taking or refraining from taking action as a result of this information.</p>
 					</div>
 				</div>
-				<div class="col-md-3 col-md-pull-9">
-					<div class="sidebar">
-						<div class="row">
-							<div class="col-xs-6 col-md-12">
-								<div class="widget">
-									<h3>Popular Categories</h3>
-									<ul>
-										<li><a href="#">Performance Collection</a></li>
-										<li><a href="#">Pants</a></li>
-										<li><a href="#">Woven Shirts</a></li>
-										<li><a href="#">Earth-Friendly Apparel</a></li>
-										<li><a href="#">Sweatshirts</a></li>
-										<li><a href="#">Infants</a></li>
-										<li><a href="#">Shorts</a></li>
-										<li><a href="#">Adult Essentials</a></li>
-										<li class="more"><a href="#">Show More</a></li>
-									</ul>
-								</div><!-- .widget -->
-							</div>
-							<div class="col-xs-6 col-md-12">
-								<div class="widget">
-									<h3>Popular Brands</h3>
-									<ul>
-										<li><a href="#">Ashworth</a></li>
-										<li><a href="#">Rabbit Skins</a></li>
-										<li><a href="#">Izod</a></li>
-										<li><a href="#">LAT</a></li>
-										<li><a href="#">Authentic Pigment</a></li>
-										<li><a href="#">Canvas</a></li>
-										<li><a href="#">Apples & Oranges</a></li>
-										<li><a href="#">OccuNomix</a></li>
-										<li class="more"><a href="#">Show More</a></li>
-									</ul>
-								</div><!-- .widget -->
-							</div>
-						</div>
+			</div>
+			<div class="container links">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs nav-justified " role="tablist">
+					<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">New Businesses:</a></li>
+					<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Rates of tax and allowances </a></li>
+					<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Other Useful Websites </a></li>
+				</ul>
 
-						<div class="row">
-							<div class="col-md-12 col-xs-6 text-center">
-								<div id="carousel-sidebar" class="carousel fade" data-ride="carousel">
-									<!-- Wrapper for slides -->
-									<div class="carousel-inner" role="listbox">
-										<div class="item active">
-											<img src="img/slide-sidebar1.jpg" alt="">
-											<div class="sidebar-carousel-caption">
-												<div>
-													<h4>Fashion Colors For Women</h4>
-													<p>Make every category of your webstore look special by setting different color schemes.</p>
-												</div>
-											</div>
-										</div>
-										<div class="item">
-											<img src="img/slide-sidebar2.jpg" alt="">
-											<div class="sidebar-carousel-caption">
-												<div>
-													<h4>Fashion Colors For Women 2</h4>
-													<p>Make every category of your webstore look special by setting different color schemes.</p>
-												</div>
-											</div>
-										</div>
-										<div class="item">
-											<img src="img/slide-sidebar1.jpg" alt="">
-											<div class="sidebar-carousel-caption">
-												<div>
-													<h4>Fashion Colors For Women 3</h4>
-													<p>Make every category of your webstore look special by setting different color schemes.</p>
-												</div>
-											</div>
-										</div>
-									</div>
-									<!-- Indicators -->
-									<ol class="carousel-indicators">
-										<li data-target="#carousel-sidebar" data-slide-to="0" class="active"></li>
-										<li data-target="#carousel-sidebar" data-slide-to="1"></li>
-										<li data-target="#carousel-sidebar" data-slide-to="2"></li>
-									</ol>
-								</div><!-- #carousel-sidebar -->
-							</div>
-							<div class="col-md-12 col-xs-6 text-center">
-								<div class="banner">
-									<img src="img/banner.jpg" alt="">
-									<h3>introducing</h3>
-									<h2>bombshell</h2>
-									<h3>forever</h3>
-									<a href="#" class="btn-red">shop now</a>
-								</div>
-							</div>
-						</div>				
-						<div class="about">
-							<h3>About Store</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-							<p><span>Ut enim ad minim veniam, quis nostrud exercitation. Aiusmod tempor incididunt ut labore et dolore magna aliqua</span></p>
-						</div>
-					</div> <!-- /.sidebar -->
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="home">
+						<ul class="list-group">
+							<li class="list-group-item"><a href="http://www.hmrc.gov.uk/startingup/index.htm" target="_blank"> HM Revenue & Customs - Start Ups Guidance</a></li>
+							<li class="list-group-item"><a href="http://www.wenta.co.uk" target="_blank"> WENTA - Local Enterprise Agency</a></li>
+							<li class="list-group-item"><a href="http://www.startups.co.uk" target="_blank"> Start Up Information</a></li>
+							<li class="list-group-item"><a href="http://www.smallbusinessadvice.org.uk/" target="_blank"> Small Business Advice Service </a></li>
+							<li class="list-group-item"><a href="http://www.prowess.org.uk/" target="_blank"> Prowess - New business advice for women</a></li>
+						</ul>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="profile">
+						<ul class="list-group links-center">
+							<li class="list-group-item"><a href="https://www.gov.uk/government/publications/rates-and-allowances-income-tax" target="_blank"> Income tax</a></li>
+							<li class="list-group-item"><a href="https://www.gov.uk/government/publications/rates-and-allowances-income-tax" target="_blank"> National insurance</a></li>
+							<li class="list-group-item"><a href="https://www.gov.uk/capital-gains-tax" target="_blank"> Capital gains tax</a></li>
+							<li class="list-group-item"><a href="https://www.gov.uk/inheritance-tax" target="_blank"> Inheritance tax </a></li>
+							<li class="list-group-item"><a href="https://www.gov.uk/government/publications/rates-and-allowances-corporation-tax" target="_blank"> Corporation tax</a></li>
+						</ul>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="messages">
+						<ul class="list-group links-center">
+							<li class="list-group-item"><a href="https://www.gov.uk/government/organisations/hm-revenue-customs" target="_blank"> HM Revenue & Customs</a></li>
+							<li class="list-group-item"><a href="https://www.gov.uk/government/organisations/department-for-work-pensions" target="_blank"> Department for Work and Pensions</a></li>
+							<li class="list-group-item"><a href="https://www.gov.uk/government/organisations/companies-house" target="_blank"> Companies House</a></li>
+							<li class="list-group-item"><a href="https://www.gov.uk/" target="_blank"> Direct Government </a></li>
+							<li class="list-group-item"><a href="http://www.icaew.com/" target="_blank"> Institute of Chartered Accountants</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+			<div class="container">
+					<button type="button" class="btn btn-primary btn-lg btn-block btn-ask-2" data-toggle="modal" data-target="#myModal" id="contacts">Ask for a free consultation</button>
+				</div>
 
-	<section class="bottom-content">
-		<div class="container">
+		<!-- -------------------------------------------------------- links  ---------------------------------------- -->
+		<!-- --------------------------------------------------------   contacts   -------------------------------- -->
+
+		<hr class="hr-line">
+		<div class="container next-block-header">
 			<div class="row">
-				<div class="col-md-4">
-					<h3>Get Discounts and Free Offers</h3>
-					<h4>Get free coupens, discounts and new arivals</h4>
-				</div>
-				<div class="col-md-8">
-					<form class="form-inline">
-						<div class="row">
-							<div class="form-group col-sm-4">
-								<input type="text" name="name" class="form-control" placeholder="your full name">
-							</div>
-							<div class="form-group col-sm-4">
-								<input type="email" name="email" class="form-control" placeholder="your email address">
-							</div>
-							<div class="form-group col-sm-4">
-								<button type="submit" class="btn btn-default">Subscribe</button>
-							</div>
-						</div>
-					</form>
-				</div>
+				<div class="col-md-12"><h1>Our <b>CONTACTS</b></h1></div>
 			</div>
 		</div>
-	</section>
-
-	<div class="bottom-slider">
-		<div class="container">
-			<ul id="elastislide" class="elastislide-list">
-				<li><a href="#"><img src="img/partner1.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner5.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner6.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner4.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner5.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner6.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner1.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner4.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner1.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner6.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner5.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner4.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner1.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner4.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner1.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner6.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner5.jpg" alt="partner1" /></a></li>
-				<li><a href="#"><img src="img/partner4.jpg" alt="partner1" /></a></li>
-			</ul>
-		</div>
-	</div><!-- /.bottom-slider -->
-
-	<footer>
-		<div class="footer-menu">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10">
-						<div class="row">
-							<div class="col-md-3 col-xs-6">
-								<h5>Help &amp; Info</h5>
-								<ul>
-									<li><a href="#">Delivery</a></li>
-									<li><a href="#">Returns &amp; Refunds</a></li>
-									<li><a href="#">Contact Us</a></li>
-									<li><a href="#">Track your Order</a></li>
-									<li><a href="#">Reglaze Service</a></li>
-									<li><a href="#">Lens Price Comparison</a></li>
-									<li><a href="#">A - Z Brands</a></li>
-									<li><a href="#">FAQ's</a></li>
-								</ul>
-							</div>
-							<div class="col-md-3 col-xs-6">
-								<h5>Brands we sell</h5>
-								<ul>
-									<li><a href="#">Noosa Amsterdam</a></li>
-									<li><a href="#">Cream Clothing</a></li>
-									<li><a href="#">Taschendieb</a></li>
-									<li><a href="#">Hermes paris</a></li>
-									<li><a href="#">D&amp;G Fashion</a></li>
-								</ul>
-							</div>
-							<div class="clearfix visible-xs-block visible-sm-block"></div>
-							<div class="col-md-3 col-xs-6">
-								<h5>Care &amp; advice</h5>
-								<ul>
-									<li><a href="#">Prescription Information</a></li>
-									<li><a href="#">Lenses &amp; Coatings</a></li>
-									<li><a href="#">PD Measurement</a></li>
-									<li><a href="#">Style Advice</a></li>
-									<li><a href="#">Size Guide</a></li>
-									<li><a href="#">Shopping Guide</a></li>
-								</ul>
-							</div>
-							<div class="col-md-3 col-xs-6">
-								<h5>Company</h5>
-								<ul>
-									<li><a href="#">About Us</a></li>
-									<li><a href="#">Our Store</a></li>
-									<li><a href="#">Terms &amp; Conditions</a></li>
-									<li><a href="#">Privacy Policy</a></li>
-									<li><a href="#">Cookies</a></li>
-									<li><a href="#">Find us</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-2">
-						<h5>Follow us</h5>
-						<div class="social-icons">
-							<a href="#"><img src="img/fb.jpg" alt=""></a>
-							<a href="#"><img src="img/tw.jpg" alt=""></a>
-							<a href="#"><img src="img/fl.jpg" alt=""></a>
-						</div>
-					</div>
+		<div class="container cont-contacts">
+			<div class="row">
+				<div class= "col-md-6">
+					<table class="table">
+						<tr>
+							<td><span class="glyphicon glyphicon-earphone glyphicon-contacts" aria-hidden="true"></span><a href="tel: +447866252399">07866 252 399</a></td>
+						</tr>
+						<tr>
+							<td><span class="glyphicon glyphicon-envelope glyphicon-contacts" aria-hidden="true"></span><a href="mailto:admin@ogstons.com">admin@ogstons.com</a></td>
+						</tr>
+						<tr>
+							<td><span class="glyphicon glyphicon-map-marker glyphicon-contacts" aria-hidden="true"></span>6 Norfolk Rd, Saint Ives PE27 3DP, Cambridgeshire, UK</td>
+						</tr>
+					</table>
+					<iframe allowfullscreen="" frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.3419266767396!2d-0.07698229999999999!3d52.3460835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877de169e5ed9a7%3A0x8829affd4616d66c!2s6+Norfolk+Rd%2C+St+Ives%2C+Cambridgeshire+PE27+3DP!5e0!3m2!1sen!2suk!4v1444123872411" style="border:0" width="600">ы
+					</iframe>
+				</div>
+				<div class= "col-md-6">
+					<form data-toggle="validator" role="form">
+  <div class="form-group">
+    <label for="inputName" class="control-label">Name</label>
+    <input type="text" class="form-control" id="inputName" placeholder="Your name" required>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail" class="control-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Sorry, this email address is invalid" required>
+    <div class="help-block with-errors"></div>
+  </div>
+   <div class="form-group">
+    <label for="inputSubject" class="control-label">Subject</label>
+    <input type="text" class="form-control" id="inputSubject" placeholder="Subject" required>
+  </div>
+     <div class="form-group">
+    <textarea type="text" class="form-control" rows="4" id="enquiry" placeholder="Your enquiry" required></textarea>
+  </div>
+  
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
 				</div>
 			</div>
-		</div><!-- /.footer-menu -->
-		<div class="footer-copyright">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<p>&copy; 2014 Fashion Store. All Rights Reserved.</p>
-					</div>
-					<div class="col-md-8 text-right pay">
-						<a href="#"><img src="img/pay1.jpg" alt=""></a>
-						<a href="#"><img src="img/pay2.jpg" alt=""></a>
-						<a href="#"><img src="img/pay3.jpg" alt=""></a>
-						<a href="#"><img src="img/pay4.jpg" alt=""></a>
-						<a href="#"><img src="img/pay5.jpg" alt=""></a>
-						<a href="#"><img src="img/pay6.jpg" alt=""></a>
-						<a href="#"><img src="img/pay7.jpg" alt=""></a>
-						<a href="#"><img src="img/pay8.jpg" alt=""></a>
+			</div>
+
+			<div class="container-fluid footer">
+				<div class="container">
+				<div class = "row"> 
+
+						<span>Ogstons Chartered Accountants © 2016 <br>All Rights Reserved. </span>
+						<span class="navbar-right"><i class="fa fa-facebook fa-border" aria-hidden="true"></i></span>
+						<span class="navbar-right"><i class="fa fa-linkedin fa-border" aria-hidden="true"></i></i></span>
+						<span class="navbar-right"><i class="fa fa-google-plus fa-border" aria-hidden="true"></i>
+</i></span>
 					</div>
 				</div>
+				</div>
 			</div>
-		</div><!-- /.footer-copyright -->
-	</footer>
+			</div>
+		<!-- -------------------------------------------------------- contacts  ---------------------------------------- -->
+		<!-- --------------------------------------------------------   form   -------------------------------- -->
 
-	
-	<script src="js/modernizr.custom.17475.js"></script>
+<div id="myModal" class="modal fade">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header"><button class="close" type="button" data-dismiss="modal">×</button>
+<h4 class="modal-title">Please enter your details below</h4>
+</div>
+<div class="modal-body"><form data-toggle="validator" role="form" id="#contactForm">
+  <div class="form-group">
+    <label for="inputName" class="control-label">Name</label>
+    <input type="text" class="form-control" id="inputName" placeholder="Your name" required>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail" class="control-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="Sorry, this email address is invalid" required>
+    <div class="help-block with-errors"></div>
+  </div>
+   <div class="form-group">
+    <label for="inputSubject" class="control-label">Subject</label>
+    <input type="text" class="form-control" id="inputSubject" placeholder="Subject" required>
+  </div>
+     <div class="form-group">
+    <textarea type="text" class="form-control" rows="4" id="enquiry" placeholder="Your enquiry" required></textarea>
+  </div>
+  
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form></div>
+<div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Close</button></div>
+</div>
+</div>
+</div>
+
+
+<!--
+<div class="modal fade" id="basicModal" tabindex="-1" role="dialog">
+     <div class="modal-dialog">
+       <div class="modal-content">
+          <div class="modal-header"><button class="close" type="button" data-dismiss="modal">x</button>
+             <h4 class="modal-title" id="myModalLabel">Название модального окна</h4>
+          </div>
+        <div class="modal-body">
+        
+
+<form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Title:</label>
+    <select class="form-control">
+    	<option>Mr</option>
+    	<option>Mrs</option>
+    	<option>Miss</option>
+    	<option>Ms</option>
+    </select>
+  </div>
+
+   <div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your full name">
+  </div>
+
+     <div class="form-group">
+    <label for="exampleInputEmail1">Comany</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your company name">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Telephone</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">E-mail adress</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Trade/Profession:</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+  </div>
+
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">Trade/Profession:</label>
+				<div class="col-sm-6">
+					<input type="text" class="form-control" id="company">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">How long have you been trading?</label>
+				<div class="col-sm-6">
+					<input type="text" class="form-control" id="company">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">No. of employees:</label>
+				<div class="col-sm-6">
+					<input type="text" class="form-control" id="company">
+				</div>
+			</div>
+
+
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">Approx turnover:</label>
+				<div class="col-sm-6">
+					<input type="text" class="form-control" id="company">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="email">What is the legal status of your business?</label>
+				<div class="col-sm-2">
+					<select class="form-control">
+						<option>Sole Trader</option>
+						<option>Partnership</option>
+						<option>Limited Liability Partnership</option>
+						<option>Limited Company</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">How many people own the business?</label>
+				<div class="col-sm-6">
+					<input type="text" class="form-control" id="company">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">What is the financial year end?</label>
+				<div class="col-sm-6">
+					<input type="text" class="form-control" id="company">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">Are you VAT registered?:</label>
+				<div class="col-sm-6">
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+					</label>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="email">What best describes your accounting records?</label>
+				<div class="col-sm-3">
+					<select class="form-control">
+						<option>Quickbooks</option>
+						<option>Sage</option>
+						<option>Other computerising package</option>
+						<option>Using spreadsheets</option>
+						<option>Manual books</option>
+						<option>Just bank statements, invoices, chq stubs etc</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="email">If manual, is expenditure analysed and added up?</label>
+				<div class="col-sm-3">
+					<select class="form-control">
+						<option>Yes</option>
+						<option>Neither</option>
+						<option>Analyze but do not total</option>
+						<option>Total but not analyze</option>
+						<option>Not sure what you mean</option>
+						<option>N/A</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">Approx number of bank transactions per month</label>
+				<div class="col-sm-6">
+					<input type="text" class="form-control" id="company">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">Do you prepare a regular bank reconciliation?</label>
+				<div class="col-sm-6">
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> I don't know
+					</label>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">Further useful information on records:</label>
+				<div class="col-sm-6">
+					<textarea class="form-control" rows="6"></textarea>
+				</div>
+			</div>		
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">Other income/capital gains for personal Tax Returns:</label>
+				<div class="col-sm-6">
+					<textarea class="form-control" rows="6"></textarea>
+				</div>
+			</div>		
+			<h3> Which services do you require?</h3>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">Annual Accounts Preparation:</label>
+				<div class="col-sm-6">
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+					</label>
+				</div>
+			</div>
+
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">Business Tax:</label>
+				<div class="col-sm-6">
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+					</label>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="email">Personal Self Assessment Tax Returns - select number to be completed:</label>
+				<div class="col-sm-1">
+					<select class="form-control">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">Dealing with Companies House:</label>
+				<div class="col-sm-6">
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+					</label>
+				</div>
+			</div>
+
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">Payroll:</label>
+				<div class="col-sm-6">
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes - Weekly
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Yes - Monthly
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+					</label>
+				</div>
+			</div>
+
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">Bookkeeping:</label>
+				<div class="col-sm-6">
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+					</label>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">VAT Returns::</label>
+				<div class="col-sm-6">
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+					</label>
+				</div>
+			</div>
+
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">Management Accounts:</label>
+				<div class="col-sm-6">
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes - Weekly
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Yes - Quarterly
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+					</label>
+				</div>
+			</div>
+
+
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">Annual Audit (normally only required for larger Ltd Companies):</label>
+				<div class="col-sm-6">
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Yes
+					</label>
+					<label class="radio-inline">
+						<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+					</label>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">Other services required::</label>
+				<div class="col-sm-6">
+					<textarea class="form-control" rows="6"></textarea>
+				</div>
+			</div>	
+
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="company">Anything else that may be relevant to providing you with a fixed quote:</label>
+				<div class="col-sm-6">
+					<textarea class="form-control" rows="6"></textarea>
+				</div>
+			</div>	
+
+  <div class="form-group">
+    <label for="exampleInputPassword1">Пароль</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+          <input type="checkbox"> Проверить меня
+        </label>
+  </div>
+  <button type="submit" class="btn btn-default">Отправить</button>
+</form>
+
+			
+			
+
+
+			<div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" class="btn btn-default">Submit</button>
+				</div>
+			</div>
+
+
+		</form>
+	</div>
+	-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.elastislide.js"></script>
-	<script src="js/scripts.js"></script>
+	<script src="js/validator.js"></script>
 </body>
 </html>
+<!---
+<table class="table table-striped">
+				<tr>
+					<td>
+						d;lfk;dlfk
+					</td>
+				</tr>
+				<tr>
+					<td>
+						d;lfk;dlfk
+					</td>
+				</tr>
+				<tr>
+					<td>
+						d;lfk;dlfk
+					</td>
+				</tr>
+			</table>
+			-->
